@@ -1,0 +1,140 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=.3in, voffset=.3in, ]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, mathtools}
+\usepackage{multicol}
+\usepackage[subnum]{cases}
+\usepackage{relsize}
+\usepackage[makeroom]{cancel}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{calligra}
+\usepackage[normalem]{ulem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{bbold}
+\usepackage{physics}
+
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} 
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+
+
+% Makes '\sr' make a script r
+\newcommand{\sr}{\ensuremath{\mathcalligra{r}}}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{\i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{\j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\rhat}{\boldsymbol{\hat{\textbf{r}}}}
+\newcommand{\srhat}{\boldsymbol{\hat{\textbf{\sr}}}}
+\newcommand{\xhat}{\boldsymbol{\hat{\textbf{x}}}}
+\newcommand{\yhat}{\boldsymbol{\hat{\textbf{y}}}}
+\newcommand{\zhat}{\boldsymbol{\hat{\textbf{z}}}}
+\newcommand{\nhat}{\boldsymbol{\hat{\textbf{n}}}}
+\newcommand{\phihat}{\boldsymbol{\hat{\textbf{$\phi$}}}}
+\newcommand{\thetahat}{\boldsymbol{\hat{\textbf{$\theta$}}}}
+\newcommand{\rhohat}{\boldsymbol{\hat{\textbf{$\rho$}}}}
+
+\newcommand{\ve}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vc}[1]{\mathbf{#1}}
+\newcommand{\fracl}[2]{\mathlarger{\frac{#1}{#2}}}
+%\newcommand{\dd}{\, \mathrm{d}}
+\newcommand{\eo}{\epsilon_0}
+\newcommand{\mo}{\mu_\circ}
+\newcommand{\tder}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\dtder}[2]{\frac{\dd^2 #1}{\dd #2^2}}
+\newcommand{\ttder}[2]{\frac{\dd^3 #1}{\dd #2^3}}
+\newcommand{\dpder}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\tpder}[2]{\frac{\partial^3 #1}{\partial #2^3}}
+\newcommand{\intas}{ \int_{-\infty}^\infty}
+\newcommand{\wt}[1]{\widetilde{#1}}
+%\newcommand{\ev}[1]{\left\langle #1 \right\rangle}
+%\newcommand{\ket}[1]{\left| #1 \right\rangle}
+%\newcommand{\bra}[1]{\left\langle #1 \right|}
+%\newcommand{\braket}[2]{\left\langle #1 \right| \left. \! #2 \right\rangle}
+\newcommand{\ce}{\wt{\vect{E}}}
+\newcommand{\cb}{\wt{\vect{B}}}
+\newcommand{\K}{\frac{1}{4 \pi \eo}}
+\newcommand{\lrp}[1]{\left( #1 \right)}
+\newcommand{\lrb}[1]{\left[ #1 \right]}
+\newcommand{\lrc}[1]{\left\{ #1 \right\}}
+\newcommand{\herm}[1]{#1^\dagger}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\pagenumbering{gobble}
+
+\pagestyle{fancy}
+\lhead{Thermodynamics Equations}
+\chead{MSU Comprehensive Exam 2016}
+\rhead{Roy Smart}
+
+
+ 
+\begin{document}
+
+\begin{multicols}{2}
+	\tiny
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*}
+	& \small \hspace{-10pt} \textbf{Equilibrium and State Quantities} \small \\
+		& p V = NkT		\tag*{Ideal gas law (GNS. 1.2)} \\
+		& p V = m N \frac{1}{3} \expval{\ve{v}^2} = \frac{2}{3} N \expval{\epsilon_{\text{kin}}}	\tag*{Kinetic theory of ideal gas (GNS. 1.10)} \\
+		& \delta W = - p \: dV	\tag*{Infinitesimal work done by a change in volume (GNS. 1.20)} \\
+		& \delta W = \mu \: dN	\tag*{Infinitesimal work done by adding a particle against potential $\mu$ (GNS. 1.24)} \\
+		& \delta Q = C \: dT	\tag*{Infinitesimal heat added against heat capacity $C$ (GNS. 1.25)} \\
+		& \lrb{p + \lrp{\frac{N}{V}}^2a}(V - Nb) = NkT	\tag*{Van de Waals' equation (GNS. 1.33)} \\
+	& \small \hspace{-10pt} \textbf{The Laws of Thermodynamics} \small \\	
+		& dU = \delta W + \delta Q	\tag*{First law of thermodynamics (GNS. 2.1)} \\
+		& U = \frac{3}{2} N k T	\tag*{Internal energy of an ideal gas (GNS. 2.2)} \\
+		& C_V = \frac{3}{2}	Nk	\tag*{Specific heat at constant volume of ideal gas (GNS. 2.2 \& 2.4)} \\
+		& \lrp{\frac{T}{T_0}}^{3/2} = \frac{V_0}{V}, \quad \lrp{\frac{T}{T_0}}^{5/2} = \frac{p}{p_0}, \quad \frac{p}{p_0} = \lrp{\frac{V_0}{V}}^{5/3} \tag*{Adiabatic equations of the ideal gas (GNS 2.6 \& 2.7)} \\
+		& \oint \frac{\delta Q_{\text{rev}}}{T} = 0		\tag*{Conservation of reduced heat for reversible cyclic processes (GNS. 2.26)} \\
+		& dS =  \frac{\delta Q_{\text{rev}}}{T}	\tag*{Definition of entropy (GNS. 2.28)} \\
+		& \delta Q_{\text{irr}} < \delta Q_{\text{rev}} = T \: dS	\tag*{Infinitesimal change in heat in terms of entropy (GNS 2.33)} \\
+		& dS = 0, \quad S = S_{\text{max}}	\tag*{Entropy of isolated system in equilibrium (GNS 2.34)} \\
+		& dS \geq 0	\tag*{Second law of thermodynamics (GNS 2.35)} \\
+		& dU = T \; dS - p \; dV + \mu \; dN + \phi \; dq	\tag*{First law for reversible processes (GNS 2.36)} \\
+	\end{align*} 
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+	\end{align*}
+\end{multicols}
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

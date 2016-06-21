@@ -1,0 +1,240 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=.3in, voffset=.3in, ]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, mathtools}
+\usepackage{multicol}
+\usepackage[subnum]{cases}
+\usepackage{relsize}
+\usepackage[makeroom]{cancel}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{calligra}
+\usepackage[normalem]{ulem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{bbold}
+
+
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} 
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+
+
+% Makes '\sr' make a script r
+\newcommand{\sr}{\ensuremath{\mathcalligra{r}}}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{\i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{\j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\rhat}{\boldsymbol{\hat{\textbf{r}}}}
+\newcommand{\srhat}{\boldsymbol{\hat{\textbf{\sr}}}}
+\newcommand{\xhat}{\boldsymbol{\hat{\textbf{x}}}}
+\newcommand{\yhat}{\boldsymbol{\hat{\textbf{y}}}}
+\newcommand{\zhat}{\boldsymbol{\hat{\textbf{z}}}}
+\newcommand{\nhat}{\boldsymbol{\hat{\textbf{n}}}}
+\newcommand{\phihat}{\boldsymbol{\hat{\textbf{$\phi$}}}}
+\newcommand{\thetahat}{\boldsymbol{\hat{\textbf{$\theta$}}}}
+\newcommand{\rhohat}{\boldsymbol{\hat{\textbf{$\rho$}}}}
+
+\newcommand{\ve}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vc}[1]{\mathbf{#1}}
+\newcommand{\fracl}[2]{\mathlarger{\frac{#1}{#2}}}
+\newcommand{\dd}{\, \mathrm{d}}
+\newcommand{\eo}{\epsilon_0}
+\newcommand{\mo}{\mu_\circ}
+\newcommand{\tder}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\dtder}[2]{\frac{\dd^2 #1}{\dd #2^2}}
+\newcommand{\ttder}[2]{\frac{\dd^3 #1}{\dd #2^3}}
+\newcommand{\dpder}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\tpder}[2]{\frac{\partial^3 #1}{\partial #2^3}}
+\newcommand{\intas}{ \int_{-\infty}^\infty}
+\newcommand{\wt}[1]{\widetilde{#1}}
+\newcommand{\ev}[1]{\left\langle #1 \right\rangle}
+\newcommand{\ce}{\wt{\vect{E}}}
+\newcommand{\cb}{\wt{\vect{B}}}
+\newcommand{\K}{\frac{1}{4 \pi \eo}}
+\newcommand{\lrp}[1]{\left( #1 \right)}
+\newcommand{\lrb}[1]{\left[ #1 \right]}
+\newcommand{\lrc}[1]{\left\{ #1 \right\}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\pagenumbering{gobble}
+
+\pagestyle{fancy}
+\lhead{Mathematical Identities}
+\chead{MSU Comprehensive Exam 2016}
+\rhead{Roy Smart}
+
+
+ 
+\begin{document}
+
+\begin{multicols}{2}
+	\tiny
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*}
+	& \small \hspace{-10pt} \textbf{Trigonometric Identities} \small \\
+		& \sin^2 u + \cos^2 u = 1	\tag*{Sine pythagorean identity} \\
+		& 1 + \tan^2 u = \sec^2 u 	\tag*{Tangent pythagorean identity} \\
+		& 1 + \cot^2 u = \csc^2 u 	\tag*{Cotangent pythagorean identity} \\
+		& \sin \lrp{\frac{\pi}{2} - u} = \cos u	\tag*{Sine co-function identity} \\
+		& \cos \lrp{\frac{\pi}{2} - u} = \sin u	\tag*{Cosine co-function idenity} \\
+		& \tan \lrp{\frac{\pi}{2} - u} = \cot u	\tag*{Tangent co-function identity} \\
+		& \sin(-u) = -\sin u	\tag*{Sine even-odd identity} \\
+		& \cos(-u) = \cos u		\tag*{Cosine even-odd identity} \\
+		& \tan(-u) = -\tan u	\tag*{Tangent even-odd identity} \\
+		& \sin(u \pm v) = \sin u \cos v \pm \cos u \sin v	\tag*{Sine sum-difference formula} \\
+		& \cos(u \pm v) = \cos u \cos v \mp \sin u \sin v	\tag*{Cosine sum-difference formula} \\
+		& \tan(u \pm v) = \frac{\tan u \pm \tan v}{1 \mp \tan u \tan v}	\tag*{Tangent sum-difference formula} \\
+		& \sin(2 u) = 2 \sin u \cos u	\tag*{Sine double angle formula} \\
+		& \cos (2 u) = \cos^2 u - \sin^2 u = 2 \cos^2 u - 1 = 1 - 2 \sin^2 u	\tag*{Cosine double angle formula} \\
+		& \tan (2 u) = \frac{2 \tan u}{1 - \tan^2 u}	\tag*{Tangent double angle formula} \\
+		& \sin^2 u =\frac{1- \cos (2u)}{2}	\tag*{Sine half-angle formula} \\
+		& \cos^2 u =\frac{1 + \cos(2 u)}{2}	\tag*{Cosine half-angle formula} \\
+		& \tan^2 u = \frac{1 - \cos (2u)}{1+\cos (2u)}	\tag*{Tangent half-angle formula} \\
+		& \sin u + \sin v = 2 \sin \lrp{\frac{u+v}{2}} \cos \lrp{\frac{u-v}{2}}	\tag*{Sine sum-to-product formula} \\
+		& \sin u - \sin v = 2 \sin \lrp{\frac{u-v}{2}} \cos \lrp{\frac{u+v}{2}}	\tag*{Sine difference-to-product formula} \\
+		& \cos u + \cos v = 2 \cos \lrp{\frac{u+v}{2}} \cos \lrp{\frac{u-v}{2}}	\tag*{Cosine sum-to-product formula} \\
+		& \cos u - \cos v = -2 \sin \lrp{\frac{u+v}{2}} \sin \lrp{\frac{u-v}{2}}	\tag*{Cosine difference-to-product formula} \\
+		& \sin u \sin v = \frac{1}{2} \lrb{\cos(u - v) - \cos(u+v)}	\tag*{Sine product-to-sum formula} \\
+		& \cos u \cos v = \frac{1}{2} \lrb{\cos(u - v) + \cos(u+v)}	\tag*{Cosine product-to-sum formula} \\
+		& \sin u \cos v = \frac{1}{2} \lrb{\sin(u - v) + \sin(u+v)}	\tag*{Hybrid product-to-sum formula} \\
+	& \small \hspace{-10pt} \textbf{Vector Formulas} \small \\
+		& \ve{a \cdot (b \times c)} = \ve{b \cdot (c \times a)} = \ve{c \cdot (a \times b)}	\tag*{Dot product of cross product and vector} \\
+		& \ve{a \times (b \times c)} = \ve{b(a \cdot c) - c(a \cdot b)}	 	\tag*{BAC-CAB rule} \\
+		& \ve{(a \times b) \cdot (c \times d)} = \ve{(a \cdot c)(b \cdot d) - (a \cdot d)(b \cdot c)}	\tag*{Dot product of cross products} \\
+		& \ve{\nabla \times \nabla}\psi = 0		\tag*{Curl of a gradient} \\
+		& \ve{\nabla \cdot (\nabla \times a)} = 0	\tag*{Divergence of a curl} \\
+		& \ve{\nabla \times (\nabla \times a)} = \ve{\nabla(\nabla \cdot a)-}\nabla^2\ve{a} \tag*{Curl of a curl} \\
+		& \ve{\nabla \cdot (}\psi\ve{a)} = \ve{a \cdot \nabla}\psi + \psi\ve{\nabla \cdot a}	\tag*{Divergence chain rule} \\
+		& \ve{\nabla \times (} \psi \ve{a)} = \ve{\nabla} \psi \ve{\times a} + \psi \ve{\nabla \times a}	\tag*{Curl chain rule} \\
+		& \ve{\nabla (a \cdot b)} = \ve{(a \cdot \nabla)b} + \ve{(b \cdot \nabla)a} + \ve{a \times (\nabla \times b)} + \ve{b \times (\nabla \times a)}	\tag*{Gradient of dot product} \\
+		& \ve{\nabla \cdot (a \times b)} = \ve{b \cdot (\nabla \times a) - a \cdot (\nabla \times b)}	\tag*{Divergence of cross product} \\
+		& \ve{\nabla \times (a \times b)} = \ve{a(\nabla \cdot b)} - \ve{b(\nabla \cdot a)} + \ve{(b \cdot \nabla)a} - \ve{(a \cdot \nabla)b}	\tag*{Curl of cross product} \\
+	& \small \hspace{-10pt} \textbf{Potentially Useful Mathematical Identities} \small \\
+		& \delta(f(x)) = \sum_{i} \frac{1}{\left|\tder{f}{x}(x_i)\right|}\delta(x - x_i)	\tag*{Jackson Dirac delta function Rule 5 } \\
+		& (a + x)^n \approx a^n + n a^{n-1} x+..., \quad f(x) \approx f(a) + \frac{f'(a)}{1!}(x-a)+... \tag*{Taylor Expansions} \\
+		& J_m(k \rho) \propto (k \rho)^m, \; Y_m(k \rho) \propto (k \rho)^{-m}, \; I_m(k \rho) \propto (k \rho)^m, \; K_m(k \rho) \propto (k \rho)^{-m}, \tag*{As $\rho \rightarrow 0$} \\
+ 		&\begin{pmatrix}
+			\rhohat \\
+			\phihat \\
+			\zhat
+ 		\end{pmatrix} =
+ 		\begin{pmatrix}
+ 			\cos \phi & \sin \phi & 0 \\
+ 			-\sin \phi & \cos \phi & 0 \\
+ 			0 & 0 & 1 \\
+ 		\end{pmatrix} 
+ 		\begin{pmatrix}
+ 			\xhat \\
+ 			\yhat \\
+ 			\zhat \\
+ 		\end{pmatrix}, \quad
+ 		\begin{pmatrix}
+			\rhat \\
+			\thetahat \\
+			\phihat
+ 		\end{pmatrix} =
+ 		\begin{pmatrix}
+			\sin \theta \cos \phi & \sin \theta \sin \phi & \cos \theta\\
+			\cos \theta \cos \phi & \cos \theta \sin \phi & - \sin \theta \\
+			-\sin \phi & \cos \phi & 0
+ 		\end{pmatrix} 
+ 		\begin{pmatrix}
+ 			\xhat \\
+ 			\yhat \\
+ 			\zhat \\
+ 		\end{pmatrix} \\
+ 		& \begin{pmatrix}
+ 			\rhat \\
+ 			\thetahat \\
+ 			\phihat \\
+ 		\end{pmatrix} = 
+ 		\begin{pmatrix}
+ 			\sin \theta & 0 & \cos \theta \\
+ 			\cos \theta & 0 & -\sin \theta \\
+ 			0 & 1 & 0 \\
+ 		\end{pmatrix}
+ 		\begin{pmatrix}
+ 			\rhohat \\
+ 			\phihat \\
+ 			\zhat \\
+ 		\end{pmatrix}, \quad 
+ 		\begin{pmatrix}
+			\rhohat \\
+			\phihat \\
+			\zhat
+ 		\end{pmatrix} = 
+ 		\begin{pmatrix}
+ 			\rho / \sqrt{\rho^2 + z^2} & z / \sqrt{\rho^2 + z^2} & 0 \\
+ 			0 & 0 & 1 \\
+ 			z / \sqrt{\rho^2 + z^2} & - \rho /\sqrt{\rho^2 + z^2} & 0 \\
+ 		\end{pmatrix}
+ 		\begin{pmatrix}
+			\rhat \\
+			\thetahat \\
+			\phihat
+ 		\end{pmatrix} \\
+ 		& R_x(\theta) = \begin{pmatrix}
+	 		1 & 0 & 0 \\
+	 		0 & \cos \theta & -\sin \theta \\
+	 		0 & \sin \theta & \cos \theta \\
+ 		\end{pmatrix}	\tag*{Rotation matrix about x-axis} \\
+ 		& R_y (\theta) = \begin{pmatrix}
+ 			\cos \theta & 0 & \sin \theta \\
+ 			0 & 1 & 0 \\
+ 			-\sin \theta & 0 & \cos \theta \\
+ 		\end{pmatrix} \tag*{Rotation matrix about y-axis} \\
+ 		&  R_z (\theta) = \begin{pmatrix}
+ 			\cos \theta & -\sin \theta & 0 \\
+ 			\sin \theta & \cos \theta & 0 \\
+ 			0 & 0 & 1 \\
+ 		\end{pmatrix}\tag*{Rotation matrix about z-axis} \\
+	\end{align*}	
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+ 	\end{align*}
+ 	Todo:
+ 	\begin{itemize}
+ 		\item Properties of special functions : spherical harmonics, Bessel functions, Legendre polynomials, etc.
+ 		\item How to use Green's functions
+ 	\end{itemize}
+\end{multicols}
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

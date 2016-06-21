@@ -1,0 +1,268 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=.3in, voffset=.3in, ]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, mathtools}
+\usepackage{multicol}
+\usepackage[subnum]{cases}
+\usepackage{relsize}
+\usepackage[makeroom]{cancel}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{calligra}
+\usepackage[normalem]{ulem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{bbold}
+\usepackage{physics}
+
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} 
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+
+
+% Makes '\sr' make a script r
+\newcommand{\sr}{\ensuremath{\mathcalligra{r}}}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{\i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{\j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\rhat}{\boldsymbol{\hat{\textbf{r}}}}
+\newcommand{\srhat}{\boldsymbol{\hat{\textbf{\sr}}}}
+\newcommand{\xhat}{\boldsymbol{\hat{\textbf{x}}}}
+\newcommand{\yhat}{\boldsymbol{\hat{\textbf{y}}}}
+\newcommand{\zhat}{\boldsymbol{\hat{\textbf{z}}}}
+\newcommand{\nhat}{\boldsymbol{\hat{\textbf{n}}}}
+\newcommand{\phihat}{\boldsymbol{\hat{\textbf{$\phi$}}}}
+\newcommand{\thetahat}{\boldsymbol{\hat{\textbf{$\theta$}}}}
+\newcommand{\rhohat}{\boldsymbol{\hat{\textbf{$\rho$}}}}
+
+\newcommand{\ve}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vc}[1]{\mathbf{#1}}
+\newcommand{\fracl}[2]{\mathlarger{\frac{#1}{#2}}}
+%\newcommand{\dd}{\, \mathrm{d}}
+\newcommand{\eo}{\epsilon_0}
+\newcommand{\mo}{\mu_\circ}
+\newcommand{\tder}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\dtder}[2]{\frac{\dd^2 #1}{\dd #2^2}}
+\newcommand{\ttder}[2]{\frac{\dd^3 #1}{\dd #2^3}}
+\newcommand{\dpder}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\tpder}[2]{\frac{\partial^3 #1}{\partial #2^3}}
+\newcommand{\intas}{ \int_{-\infty}^\infty}
+\newcommand{\wt}[1]{\widetilde{#1}}
+%\newcommand{\ev}[1]{\left\langle #1 \right\rangle}
+%\newcommand{\ket}[1]{\left| #1 \right\rangle}
+%\newcommand{\bra}[1]{\left\langle #1 \right|}
+%\newcommand{\braket}[2]{\left\langle #1 \right| \left. \! #2 \right\rangle}
+\newcommand{\ce}{\wt{\vect{E}}}
+\newcommand{\cb}{\wt{\vect{B}}}
+\newcommand{\K}{\frac{1}{4 \pi \eo}}
+\newcommand{\lrp}[1]{\left( #1 \right)}
+\newcommand{\lrb}[1]{\left[ #1 \right]}
+\newcommand{\lrc}[1]{\left\{ #1 \right\}}
+\newcommand{\herm}[1]{#1^\dagger}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\pagenumbering{gobble}
+
+\pagestyle{fancy}
+\lhead{Quantum Mechanics Equations}
+\chead{MSU Comprehensive Exam 2016}
+\rhead{Roy Smart}
+
+
+ 
+\begin{document}
+
+\begin{multicols}{2}
+	\tiny
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*}
+	& \small \hspace{-10pt} \textbf{Fundamental Concepts} \small \\
+		& S_k\ket{S_k;\pm} = \frac{\hbar}{2} \ket{S_k;\pm}	\tag*{Eigenkets of operator $S_k$	(S. 1.2.6)} \\
+		& \ket{\alpha} = \sum_{a'} c_{a'} \ket{a'}	\tag*{Exapansion of an arbitrary ket $\ket{\alpha}$ (S. 1.2.8)} \\
+		& \braket{\beta}{\alpha} = \braket{\alpha}{\beta}^*	\tag*{Complex conjugate of bra-ket (S. 1.2.12)} \\
+		& \braket{\alpha}{\alpha} \geq 0	\tag*{Postulate of positive definite metric (S. 1.2.13)} \\
+		& X = \herm{X}	\tag*{Condition of a hermitian operator (S. 1.2.25)} \\
+		& \herm{(X Y)} = \herm{X} \herm{Y}	\tag*{Hermitian conjugate distributivity (S. 1.2.29)} \\
+		& A \ket{a'} = a' \ket{a'}	\tag*{Eigenkets of the hermitian operator $A$ (S. 1.3.1)} \\
+		& \bra{a''}A = a''^* \bra{a''}	\tag*{Hermitian operator $A$ on a bra (S. 1.3.2)} \\
+		& \braket{a''}{a'} = \delta_{a'',a'} 	\tag*{Condition of an orthonormal set (S. 1.3.6)} \\
+		& c_{a'} = \braket{a'}{\alpha}	\tag*{Technique for finding the expansion coefficient (S. 1.3.8)} \\
+		& \sum_{a'} = \ket{a'} \bra{a'} = 1		\tag*{Identity operator (S. 1.3.11)} \\
+		& \sum_{a'} \left| c_{a'} \right|^2 = 1		\tag*{Normalization condition of expansion coefficients (S. 1.3.13)} \\
+		& \Lambda_{a'} \equiv \ket{a'}\bra{a'}	\tag*{Definition of the projection operator (S. 1.3.15)} \\
+		& P_{a'} = \left|\braket{a'}{\alpha}\right|^2	\tag*{Probability for $a'$ (S. 1.4.4)} \\
+		& \expval{A} \equiv \expval{A}{\alpha}	\tag*{Definition of expectation value (S 1.4.5)} \\
+		& S_z = \frac{\hbar}{2} \lrp{\ket{+} \bra{+} - \ket{-} \bra{-}}		\tag*{Spin-z operator in z-basis (S. 1.3.36)} \\
+		& S_x = \frac{\hbar}{2} \lrp{\ket{+} \bra{-} + \ket{-} \bra{+}}		\tag*{Spin-x operator in z-basis (S. 1.4.18a)} \\
+		& S_y = \frac{\hbar}{2} \lrp{-i\ket{+} \bra{-} + i\ket{-} \bra{+}}	\tag*{Spin-y operator in z-basis (S. 1.4.18b)} \\
+		& \ket{S_x;\pm} = \frac{1}{\sqrt{2}} \ket{+} \pm \frac{1}{\sqrt{2}} \ket{-}		\tag*{Spin-x eigenkets in z-basis (S. 1.4.17a)} \\
+		& \ket{S_y;\pm} = \frac{1}{\sqrt{2}} \ket{+} \pm \frac{i}{\sqrt{2}} \ket{-}		\tag*{Spin-y eigenkets in z-basis (S. 1.4.17b)} \\
+		& \ket{\ve{S} \cdot \nhat ; +} = \cos\lrp{\frac{\theta}{2}} \ket{+} + e^{i\phi} \sin\lrp{\frac{\theta}{2}} \ket{-}	\tag*{Arbitrary axis spin-up eigenkets in z-basis (S. Pr. 1.11)} \\
+		& \lrb{S_i, S_j} = i \epsilon_{ijk} \hbar S_k	\tag*{Spin operator commutation relations (S. 1.4.20)} \\
+		& \lrc{S_i,S_j} = \frac{1}{2} \hbar^2 \delta_{ij}	\tag*{Spin operator anticommutation relations (S. 1.4.21)} \\
+		& \lrb{A,B} \equiv AB-BA	\tag*{Definition of the commutator (S. 1.4.22a)} \\
+		& \lrc{A,B} \equiv AB+BA	\tag*{Definition of the anticommutator (S. 1.4.22b)} \\
+		& \lrb{A,B} = 0 \tag*{Condition for two observables to be compatible (S. 1.4.26)} \\
+		\begin{split}
+			& A \ket{a',b'} = a' \ket{a',b'} \\
+			& B \ket{a',b'} = b' \ket{a',b'} \\
+		\end{split}	\tag*{Property of a simultaneous eigenket of $A$ and $B$} \\
+		& \expval{\lrp{\Delta A}^2} = \expval{A^2} - \expval{A}^2		\tag*{Dispersion of A (S. 1.4.51)} \\
+		& \expval{\lrp{\Delta A}^2} \expval{\lrp{\Delta B}^2} \geq \frac{1}{4} \left| \expval{\lrb{A,B}} \right|^2		\tag*{Uncertainty relation (S. 1.4.53)} \\
+		& \int d \xi' \ket{\xi'} \bra{\xi'} = 1 	\tag*{Identity operator for continuous variables (S. 1.6.2b)} \\
+		& \mathcal{J}(d\ve{x}') \ket{\ve{x}'} = \ket{\ve{x}' + d \ve{x}'}	\tag*{Infinitesimal translation operator on ket (S. 1.6.12)} \\
+		& \mathcal{J}(d\ve{x}') = 1 - i\ve{p} \cdot d \ve{x}' / \hbar	\tag*{Definition of infinitesimal translation operator (S. 1.6.32)} \\
+		& \mathcal{J}(\Delta x' \xhat) \ket{\ve{x}'} = \ket{\ve{x}' + \Delta x' \xhat}	\tag*{Finite translation operator on ket (S. 1.6.35)} \\
+		& \mathcal{J}(\Delta x' \xhat) = \exp \lrp{-\frac{i p_x \Delta x'}{\hbar}}	\tag*{Definition of finite translation operator (S. 1.6.36)} \\
+		& \expval{(\Delta x)^2} \expval{(\Delta p_x)^2} \geq \hbar^2 / 4	\tag*{WH's position-momentum uncertainty relation (S. 1.6.34)} \\
+		& [x_i,x_j] = 0, \quad [p_i,p_j] = 0, \quad [x_i,p_j] = i \hbar \delta_{ij}		\tag*{Canonical commutation relations (S. 1.6.46)} \\
+		& [A,BC] = [A,B]C + B[A,C]	\tag*{Commutator distributivity (S. 1.6.50e)} \\
+		& [A,[B,C]] + [B,[C,A]]+[C,[A,B]] = 0	\tag*{Jacobi Identity (S. 1.6.50f)} \\
+		& x \ket{x'} = x' \ket{x'}	\tag*{Definition of the position ket (S. 1.7.1)} \\
+		& \braket{x''}{x'} = \delta(x-x')	\tag*{Position ket normalization condition (S. 1.7.2)} \\
+		& \braket{x'}{\alpha} = \psi_\alpha(x')	\tag*{Definition of the position-space wave function (S. 1.7.5)} \\
+		& p = -i \hbar \pder{}{x'}	\tag*{Momentum operator in terms of (S. 1.7.18)} \\
+		& \psi_\alpha (\ve{x}') = \lrb{\frac{1}{(2 \pi \hbar)^{3/2}}} \int d^3 x' \exp \lrp{\frac{i \ve{p}' \cdot \ve{x}'}{\hbar}} \phi_\alpha (\ve{p}')	\tag*{Fourier transform from momentum to position space (S. 1.7.51a)} \\
+		& \phi_\alpha(\ve{p}') = \lrb{\frac{1}{(2 \pi \hbar)^{3/2}}} \int d^3 x' \exp \lrp{\frac{- \ve{p}' \cdot \ve{x}'}{\hbar}} \psi_\alpha (\ve{x}')	\tag*{Fourier transform from position to momentum space (S. 1.7.51b)} \\
+	\end{align*}
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+	& \small \hspace{-10pt} \textbf{Quantum Dynamics} \small \\
+		& \mathcal{U} (t,t_0) = \exp \lrb{\frac{-iH(t-t_0)}{\hbar}}		\tag*{Time-evolution operator (S. 2.1.28)} \\
+		& [A,H] = 0 \Rightarrow H \ket{a'} = E_{a'} \ket{a'}	\tag*{Definition of energy eigenkets (S. 2.1.34)} \\
+		& \ket{\alpha,t_0 =0;t} = \exp \lrp{\frac{-iHt}{\hbar}} \ket{\alpha,t_0=0} = \sum_{a'} \ket{a'} \braket{a'}{\alpha} \exp\lrp{\frac{-i E_{a'} t}{\hbar}}	\tag*{Time-evolution of expansion coefficients (S. 2.1.38)} \\
+		& H = - \lrp{\frac{e B}{m_e c}} S_z	\tag*{Hamiltonian of a spin-1/2 particle in uniform magnetic field (S. 2.1.50)} \\
+		& \omega \equiv \frac{|e| B}{m_e c}	\tag*{Definition of the transition frequency (S. 2.1.52)} \\
+		& \mathcal{U}_s (t,0) = \exp \lrp{\frac{-i\omega S_z t}{\hbar}}		\tag*{Time-evolution of spin states (S. 2.1.54)} \\	
+		& \lrb{x_i,F(\ve{p})} = i \hbar \pder{F}{p_i}	\tag*{Commutator of position and function of momentum (S. 2.2.23a)} \\
+		& \lrb{p_i, G(\ve{x})} = -i \hbar \pder{G}{x_i}	\tag*{Commutator of momentum and function of position (S. 2.2.23b)} \\
+		& H = \frac{\ve{p}^2}{2m} + V(x)	\tag*{General expression for the Hamiltonian (S. 2.2.31)} \\
+		& m \dtder{}{t} \expval{\ve{x}} = \tder{\expval{\ve{p}}}{t} = - \expval{\ve{\nabla} V (\ve{x})}	\tag*{Ehrenfest's theorem (S. 2.2.36)} \\
+		& H = \frac{p^2}{2m} + \frac{m \omega^2 x^2}{2}		\tag*{Hamiltonian of the simple harmonic oscillator (S. 2.3.1)} \\
+		& E_n = \lrp{n + \frac{1}{2}} \hbar \omega	\tag*{Energy eigenvalues of the SHO	(S. 2.3.9)} \\
+		& a = \sqrt{\frac{m \omega}{2 \hbar}} \lrp{x + \frac{ip}{m \omega}}	\tag*{Definition of the lowering operator (S. 2.3.2)}\\
+		& \herm{a} = \sqrt{\frac{m \omega}{2 \hbar}} \lrp{x - \frac{i p}{m \omega}}	\tag*{Definition of the raising operator (S. 2.3.2)} \\
+		& a \ket{n} = \sqrt{n} \ket{n-1}	\tag*{Behaviour of lowering operator (S. 2.3.16)} \\
+		& \herm{a} \ket{n} = \sqrt{n+1} \ket{n+1}	\tag*{Behaviour of the raising operator (S. 2.3.17)} \\
+		& x = \sqrt{\frac{\hbar}{2 m \omega}} (a+ \herm{a})	\tag*{Position operator in terms of raising/lowering operators (S. 2.3.24)} \\
+		& p =i \sqrt{\frac{m \hbar \omega}{2}}(-a + \herm{a})	\tag*{Momentum operator in terms of raising/lowering ops. (S. 2.3.24)} \\
+		& x_0 \equiv \sqrt{\frac{\hbar}{m \omega}}	\tag*{Characteristic length scale for SHO (S. 2.3.29)} \\
+		& \braket{x'}{0} = \lrp{\frac{1}{\pi^{1/4} \sqrt{x_0}}} \exp \lrb{- \frac{1}{2} \lrp{\frac{x'}{x_0}}^2}	\tag*{Ground state wavefunction for SHO (S. 2.3.30)} \\
+		& \braket{x'}{1} = \bra{x'} \herm{a} \ket{0}	\tag*{Technique for evaluating higher wavefunctions of the SHO (S. 2.3.31)} \\
+		& i \hbar \pder{}{t} \psi(\ve{x}',t) = - \lrp{\frac{\hbar^2}{2m}} \ve{\nabla}'^2 \psi(\ve{x}') + V(\ve{x}') \psi(\ve{x}',t)	\tag*{Schr\"odinger's time-dependent wave equation (S. 2.4.8)} \\
+		& - \lrp{\frac{\hbar^2}{2m}} \ve{\nabla}'^2 u_E (\ve{x}') + V(\ve{x}') u_E(\ve{x}') = E u_E(\ve{x}')	\tag*{Schr\'odinger's time-independent wave equation (S. 2.4.11)} \\
+		\begin{split}
+			& \lrc{\frac{1}{[V(x) - E]^{1/4}}} \exp \lrb{-\frac{1}{\hbar} \int_{x}^{x_1} dx' \sqrt{2m[V(x') - E]} \;} \\
+			& \quad \rightarrow \lrc{\frac{2}{[E - V(x)]^{1/4}}} \cos \lrb{\frac{1}{\hbar} \int_{x_1}^{x} dx' \sqrt{2m[E-V(x')]} - \frac{\pi}{4} } 
+		\end{split}	\tag*{WKB I $\rightarrow$ II (S. 2.5.48)} \\
+		\begin{split}
+			& \lrc{\frac{1}{[V(x) - E]^{1/4}}} \exp \lrb{-\frac{1}{\hbar} \int_{x_2}^{x} dx' \sqrt{2m[V(x') - E]} \;} \\
+			& \quad \rightarrow \lrc{\frac{2}{[E - V(x)]^{1/4}}} \cos \lrb{\frac{1}{\hbar} \int_{x}^{x_2} dx' \sqrt{2m[E-V(x')]} -\frac{\pi}{4} } 
+		\end{split}	\tag*{WKB III $\rightarrow$ II (S. 2.5.48)} \\
+		&\int_{x_1}^{x_2} dx \sqrt{2m[E-V(x)]} = \lrp{n+\frac{1}{2}} \pi \hbar	\tag*{WKB quantization condition (S. 2.5.50)} \\
+		& E = V(x_1), \quad E = V(x_2)	\tag*{Classical turning points (S. 2.5.53)} \\
+	& \small \hspace{-10pt} \textbf{Theory of Angular Momentum} \small \\
+		& [J_i, J_j] = i \hbar \epsilon_{ijk} J_z	\tag*{Fundamental commutation relations of angular momentum (S. 3.1.20)} \\
+		& \sigma_x = \begin{pmatrix}
+			0 & 1 \\
+			1 & 0 \\
+		\end{pmatrix}, \quad \sigma_y = \begin{pmatrix}
+			0 & -i \\
+			i & 0 \\
+		\end{pmatrix}, \quad \sigma_z = \begin{pmatrix}
+			1 & 0 \\
+			0 & -1 \\
+		\end{pmatrix}	\tag*{Pauli spin matrices (S. 3.2.32)} \\
+		& \{\sigma_i,\sigma_j\} = 2 \delta_{ij}	\tag*{Anticommutation relation for Pauli matrices (S. 3.2.34)} \\
+		& [\sigma_i, \sigma_j] = 2 i \epsilon_{ijk} \sigma_k	\tag*{Commutation relation for Pauli matrices (S. 3.2.35)} \\
+		& \mathcal{D}(\nhat,\phi) = \exp \lrp{\frac{-i \ve{\sigma} \cdot \nhat}{2}} = \ve{1} \cos \lrp{\frac{\phi}{2}} - i \ve{\sigma} \cdot \nhat \sin \lrp{\frac{\phi}{2}}	\tag*{Spin-1/2 rotation (S. 3.2.44)} \\
+		& \mathcal{D}(\alpha, \beta, \gamma) = \begin{pmatrix}
+			e^{-i(\alpha + \gamma)/2} \cos (\beta/2) & -e^{-i(\alpha - \gamma)/2} \sin (\beta/2) \\
+			e^{i(\alpha - \gamma)/2} \sin (\beta/2) & e^{i(\alpha + \gamma)/2} \cos (\beta/2) \\
+		\end{pmatrix}	\tag*{Euler angle $\mathcal{D}$ (S. 3.3.21)} \\
+		& U(a,b) = \begin{pmatrix}
+			a & b \\
+			-b^* & a^* \\
+		\end{pmatrix}	\tag*{General unitary unimodular matrix (S. 3.3.7)} \\
+		& |a|^2 + |b|^2 = 1	\tag*{Unimodular condition (S. 3.3.8)} \\
+		& U(a,b) \herm{U}(a,b)	\tag*{Unitary condition (S. 3.3.9)} \\
+ 		& \sum_i w_i = 1	\tag*{Normalization condition for fractional populations (S. 3.4.5)} \\
+		& \rho \equiv \sum_i w_i \ket{\alpha^{(i)}} \bra{ \alpha^{(i)}}	\tag*{Definition of the density operator (S. 3.4.8)} \\
+	\end{align*} \newpage
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{0pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+		& [A] = \text{tr}(\rho A)	\tag*{Ensemble average (S. 3.4.10)} \\
+		& \text{tr}(\rho^2) = 1		\tag*{Property of a pure ensemble (3.4.15)} \\
+		& \rho (t) = \mathcal{U}(t,t_0) \rho (t_0) \herm{U}(t,t_0)	\tag*{Time-evolution of an ensemble (S. Pr. 3.11)} \\
+		& \ve{J}^2 \equiv J_x^2 +J_y^2 + J_z^2	\tag*{Definition of the total angular momentum operator (TAM) (S. 3.5.1)} \\
+		& [\ve{J}^2, J_k] = 0, \; (k=1,2,3)		\tag*{TAM commutivity (S. 3.5.2)} \\
+		& \ve{J}^2 \ket{j,m} = j(j+1)\hbar^2 \ket{j.m}	\tag*{TAM operator eigenvalue (S. 3.5.34a)} \\ 
+		& J_z \ket{j,m} = m \hbar \ket{j,m}	\tag*{TAM z-component operator eigenvalue (S. 3.5.34b)} \\
+		& J_+ \ket{j,m} = \sqrt{(j-m)(j+m+1)} \hbar \ket{j,m+1}		\tag*{TAM raising operator eigenvalue (S. 3.5.39)} \\
+		& J_- \ket{j,m} = \sqrt{(j+m)(j-m+1)} \hbar \ket{j,m-1}	\tag*{TAM lowering operator eigenval. (S. 3.5.40)} \\
+		& \mathcal{D}_{m'm}^{(j)} = \bra{j,m'} \exp \lrp{\frac{-i \ve{J} \cdot \nhat \phi}{\hbar}} \ket{j,m}	\tag*{Wigner functions (S. 3.5.42)} \\
+		& \mathcal{D}_{m'm}(R^{-1}) = \mathcal{D}_{mm'}^*(R)	\tag*{Unitary property of the rotation operator (S. 3.5.47)} \\
+		& \mathcal{D}_{m'm}^{(j)}(\alpha,\beta,\gamma) = e^{-i(m' \alpha + m \gamma)} d_{m'm}^{(j)}(\beta)	\tag*{Redefinition of the rotation op. (S. 3.5.50)} \\
+		& d_{m'm}^{(j)}(\beta) \equiv \bra{j,m'} \exp\lrp{\frac{-iJ_y \beta}{\hbar}} \ket{j,m}	\tag*{Rotation operator j-dependence (S. 3.5.51)} \\
+		& d^{(1/2)} = \begin{pmatrix}
+			\cos \lrp{\frac{\beta}{2}} & -\sin \lrp{\frac{\beta}{2}} \\
+			\sin \lrp{\frac{\beta}{2}} & \cos \lrp{\frac{\beta}{2}} \\
+		\end{pmatrix}	\tag*{Spin-1/2 case (S. 3.5.52)} \\
+		& d^{(1)}(\beta) = \begin{pmatrix}
+			\frac{1}{2}(1+\cos \beta) & -\frac{1}{\sqrt{2}} \sin \beta & \frac{1}{2}(1 - \cos \beta) \\
+			\frac{1}{\sqrt{2}} \sin \beta& \cos \beta & -\frac{1}{\sqrt{2}} \sin \beta \\
+			\frac{1}{2}(1-\cos \beta) & \frac{1}{\sqrt{2}} & \frac{1}{2}(1+\cos \beta) \\
+		\end{pmatrix}	\tag*{Spin-1 case (S. 3.5.57)}	\\
+		& \ve{L} = \ve{x} \times \ve{p}	\tag*{Definition of orbital angular momentum (OAM) (S. 3.6.1)} \\
+		& [L_i,L_j] = i \epsilon_{ijk} \hbar L_k	\tag*{OAM commutation relations (S. 3.6.2)} \\
+		& \ve{L}^2 = \ve{x}^2 \ve{p}^2 - ( \ve{x \cdot p})^2 + i \hbar \ve{x \cdot p}	\tag*{OAM operator identity (S. 3.6.16)} \\
+		& \braket{\ve{x}'}{n,l,m} = R_{nl}(r) Y_l^m (\theta, \phi)	\tag*{Energy eigenfunctions, seperable solution (S. 3.6.22)} \\
+		& \braket{\nhat}{l,m} = Y_l^m(\theta,\phi) = Y_l^m(\nhat)	\tag*{Angular dependence of solution (S. 3.6.23)} \\
+		& L_z\ket{l,m} = m \hbar \ket{l,m}	\tag*{Eigenvalue of the OAM z-component operator (S. 3.6.24)} \\
+		& \ve{L}^2 \ket{l,m} = l(l+1) \hbar^2 \ket{l,m}	\tag*{Eigenvalue of the OAM operator (S. 3.6.27)} \\
+		& \ve{J} = \ve{L} + \ve{S}	\tag*{Two components of TOM (S. 3.8.2)} \\
+		& m = m_1+m_2	\tag*{Conservation of the z-component of TOM (S. 3.8.35)}
+ 	\end{align*}
+\end{multicols}
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
