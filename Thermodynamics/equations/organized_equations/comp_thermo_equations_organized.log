@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  21 JUN 2016 15:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  27 JUN 2016 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**comp_quantum_equations.tex
-(./comp_quantum_equations.tex
+**comp_thermo_equations_organized.tex
+(./comp_thermo_equations_organized.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1374,21 +1374,306 @@ Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
 . 
 . Defining document command \homework with arg. spec. '' on line 764.
 .................................................
-) (./comp_quantum_equations.aux)
-\openout1 = `comp_quantum_equations.aux'.
+) (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box72
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count151
+\c@pgf@countb=\count152
+\c@pgf@countc=\count153
+\c@pgf@countd=\count154
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count155
+\pgfsyssoftpath@bigbuffer@items=\count156
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen189
+\pgfmath@count=\count157
+\pgfmath@box=\box73
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count158
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen190
+\pgf@picmaxx=\dimen191
+\pgf@picminy=\dimen192
+\pgf@picmaxy=\dimen193
+\pgf@pathminx=\dimen194
+\pgf@pathmaxx=\dimen195
+\pgf@pathminy=\dimen196
+\pgf@pathmaxy=\dimen197
+\pgf@xx=\dimen198
+\pgf@xy=\dimen199
+\pgf@yx=\dimen200
+\pgf@yy=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box74
+\pgf@hbox=\box75
+\pgf@layerbox@main=\box76
+\pgf@picture@serial@count=\count159
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen262
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count160
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box77
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box78
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen269
+\pgffor@skip=\dimen270
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count161
+\pgfplotmarksize=\dimen271
+)
+\tikz@lastx=\dimen272
+\tikz@lasty=\dimen273
+\tikz@lastxsaved=\dimen274
+\tikz@lastysaved=\dimen275
+\tikzleveldistance=\dimen276
+\tikzsiblingdistance=\dimen277
+\tikz@figbox=\box79
+\tikz@tempbox=\box80
+\tikztreelevel=\count162
+\tikznumberofchildren=\count163
+\tikznumberofcurrentchild=\count164
+\tikz@fig@count=\count165
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count166
+\pgfmatrixcurrentcolumn=\count167
+\pgf@matrix@numberofcolumns=\count168
+)
+\tikz@expandcount=\count169
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/latex/vwcol/vwcol.sty
+Package: vwcol 2008/06/24 v0.1 Variable-width multicolumn text
+
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2013/04/01 v0.3 A new environment syntax
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip71
+\RaggedLeftLeftskip=\skip72
+\RaggedRightLeftskip=\skip73
+\CenteringRightskip=\skip74
+\RaggedLeftRightskip=\skip75
+\RaggedRightRightskip=\skip76
+\CenteringParfillskip=\skip77
+\RaggedLeftParfillskip=\skip78
+\RaggedRightParfillskip=\skip79
+\JustifyingParfillskip=\skip80
+\CenteringParindent=\skip81
+\RaggedLeftParindent=\skip82
+\RaggedRightParindent=\skip83
+\JustifyingParindent=\skip84
+)
+\vwcol@sep=\skip85
+\vwcol@rule=\skip86
+\vwcol@totalwidth=\skip87
+\vwcol@averagewidth=\skip88
+\vwcol@parindent=\skip89
+\vwcol@last=\count170
+\vwcol@Ncols=\count171
+\vwcol@Nlines=\count172
+\vwcol@maxrecursion=\count173
+\vwcol@box=\box81
+\vwcol@plainbox=\box82
+\vwcol@outputbox=\box83
+)
+\du=\skip90
+
+(./comp_thermo_equations_organized.aux)
+\openout1 = `comp_thermo_equations_organized.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1426,17 +1711,17 @@ LaTeX Font Info:    ... okay on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen181
-\scratchbox=\box72
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen182
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count174
+\scratchdimen=\dimen278
+\scratchbox=\box84
+\nofMPsegments=\count175
+\nofMParguments=\count176
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count177
+\MPscratchDim=\dimen279
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1483,488 +1768,831 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 109.
+
+ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 109.
+LaTeX Font Info:    Try loading font information for U+msb on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 109.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 225.
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+
+Overfull \vbox (167.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (166.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (165.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (164.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (163.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (162.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (161.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (160.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (159.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (158.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (157.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (156.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (155.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (154.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (153.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (152.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (151.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (150.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (149.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (148.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (147.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (146.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (145.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (144.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (143.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (142.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (141.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (140.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (139.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (138.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (137.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (136.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (135.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (134.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (133.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (132.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (131.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (130.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (129.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (128.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (127.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (126.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (125.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (124.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (123.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (122.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (121.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (120.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (119.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (118.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (117.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (116.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (115.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (114.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (113.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (112.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (111.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (110.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (109.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (108.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (107.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (106.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (105.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (104.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (103.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (102.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (101.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (100.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (99.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (98.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (97.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (96.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (95.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (94.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (93.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (92.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (91.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (90.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (89.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (88.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (87.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (86.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (85.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (84.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (82.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (81.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (80.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (79.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (78.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (77.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (76.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (75.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (74.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (73.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (72.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (71.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (70.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (69.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (68.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (67.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (66.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (65.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (64.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (63.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (62.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (61.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (60.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (59.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (58.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (57.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (56.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (55.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (54.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (53.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (49.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (48.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (46.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (45.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (23.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (22.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (21.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (20.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (19.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (18.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (17.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (16.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (15.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (13.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (23.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (22.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (21.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (20.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (19.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (18.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (17.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (16.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (15.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (13.30003pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.30003pt too high) has occurred while \output is active []
+
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \vbox (146.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (145.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (144.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (143.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (142.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (141.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (140.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (139.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (138.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (137.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (136.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (135.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (134.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (133.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (132.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (131.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (130.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (129.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (128.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (127.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (126.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (125.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (124.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (123.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (122.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (121.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (120.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (119.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (118.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (117.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (116.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (115.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (114.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (113.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (112.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (111.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (110.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (109.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (108.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (107.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (106.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (105.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (104.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (103.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (102.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (101.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (100.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (99.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (98.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (97.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (96.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (95.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (94.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (93.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (92.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (91.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (90.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (89.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (88.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (87.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (86.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (85.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (84.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (83.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (82.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (81.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (80.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (79.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (78.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (77.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (76.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (75.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (74.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (73.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (72.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (71.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (70.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (69.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (68.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (67.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (66.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (65.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (64.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (63.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (62.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (61.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (60.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (59.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (58.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (57.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (56.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (55.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (54.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (53.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (52.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (51.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (50.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (49.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (48.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (47.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (46.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (45.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (44.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (43.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (42.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (41.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (40.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (39.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (38.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (37.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (35.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (34.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (33.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (32.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (31.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (30.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (28.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (27.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (26.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (24.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (23.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (22.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (21.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (20.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (19.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (18.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (17.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (16.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (15.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (14.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.92732pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.92732pt too high) has occurred while \output is active []
-
-
-[2] (./comp_quantum_equations.aux) ) 
+(./comp_thermo_equations_organized.aux) ) 
 Here is how much of TeX's memory you used:
- 11192 strings out of 493304
- 196164 string characters out of 6139871
- 309777 words of memory out of 5000000
- 14459 multiletter control sequences out of 15000+600000
- 9210 words of font info for 37 fonts, out of 8000000 for 9000
+ 19621 strings out of 493304
+ 363772 string characters out of 6139871
+ 428699 words of memory out of 5000000
+ 22677 multiletter control sequences out of 15000+600000
+ 8603 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,18n,43p,10423b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cmextra/cmbsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/
-cmmib5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb>
-Output written on comp_quantum_equations.pdf (2 pages, 131363 bytes).
+ 56i,11n,55p,10449b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb>
+Output written on comp_thermo_equations_organized.pdf (1 page, 31663 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

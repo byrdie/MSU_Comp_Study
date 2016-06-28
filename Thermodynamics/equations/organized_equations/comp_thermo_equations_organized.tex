@@ -1,0 +1,151 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=.3in, voffset=.3in, ]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, mathtools}
+\usepackage{multicol}
+\usepackage[subnum]{cases}
+\usepackage{relsize}
+\usepackage[makeroom]{cancel}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{calligra}
+\usepackage[normalem]{ulem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{bbold}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{vwcol}
+
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} 
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+
+
+% Makes '\sr' make a script r
+\newcommand{\sr}{\ensuremath{\mathcalligra{r}}}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\ihat}{\boldsymbol{\hat{\textbf{\i}}}}
+\newcommand{\jhat}{\boldsymbol{\hat{\textbf{\j}}}}
+\newcommand{\khat}{\boldsymbol{\hat{\textbf{k}}}}
+\newcommand{\rhat}{\boldsymbol{\hat{\textbf{r}}}}
+\newcommand{\srhat}{\boldsymbol{\hat{\textbf{\sr}}}}
+\newcommand{\xhat}{\boldsymbol{\hat{\textbf{x}}}}
+\newcommand{\yhat}{\boldsymbol{\hat{\textbf{y}}}}
+\newcommand{\zhat}{\boldsymbol{\hat{\textbf{z}}}}
+\newcommand{\nhat}{\boldsymbol{\hat{\textbf{n}}}}
+\newcommand{\phihat}{\boldsymbol{\hat{\textbf{$\phi$}}}}
+\newcommand{\thetahat}{\boldsymbol{\hat{\textbf{$\theta$}}}}
+\newcommand{\rhohat}{\boldsymbol{\hat{\textbf{$\rho$}}}}
+
+\newcommand{\ve}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+\newcommand{\vc}[1]{\mathbf{#1}}
+\newcommand{\fracl}[2]{\mathlarger{\frac{#1}{#2}}}
+%\newcommand{\dd}{\, \mathrm{d}}
+\newcommand{\eo}{\epsilon_0}
+\newcommand{\mo}{\mu_\circ}
+\newcommand{\tder}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\dtder}[2]{\frac{\dd^2 #1}{\dd #2^2}}
+\newcommand{\ttder}[2]{\frac{\dd^3 #1}{\dd #2^3}}
+\newcommand{\dpder}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\tpder}[2]{\frac{\partial^3 #1}{\partial #2^3}}
+\newcommand{\intas}{ \int_{-\infty}^\infty}
+\newcommand{\wt}[1]{\widetilde{#1}}
+%\newcommand{\ev}[1]{\left\langle #1 \right\rangle}
+%\newcommand{\ket}[1]{\left| #1 \right\rangle}
+%\newcommand{\bra}[1]{\left\langle #1 \right|}
+%\newcommand{\braket}[2]{\left\langle #1 \right| \left. \! #2 \right\rangle}
+\newcommand{\ce}{\wt{\vect{E}}}
+\newcommand{\cb}{\wt{\vect{B}}}
+\newcommand{\K}{\frac{1}{4 \pi \eo}}
+\newcommand{\lrp}[1]{\left( #1 \right)}
+\newcommand{\lrb}[1]{\left[ #1 \right]}
+\newcommand{\lrc}[1]{\left\{ #1 \right\}}
+\newcommand{\evalb}[1]{\left. #1 \right|}
+\newcommand{\herm}[1]{#1^\dagger}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\pagenumbering{gobble}
+
+\ifx\du\undefined
+	\newlength{\du}
+\fi
+\setlength{\du}{15\unitlength}
+
+\pagestyle{fancy}
+\lhead{Thermodynamics Equations}
+\chead{MSU Comprehensive Exam 2016}
+\rhead{Roy Smart}
+
+
+ 
+\begin{document}
+
+\begin{multicols}{2}
+	\tiny
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{-25pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*}
+		& \small \hspace{-10pt} \textbf{First Law of Thermodynamics} \small \\
+		& \small \hspace{-10pt} \textbf{Second Law of Thermodynamics} \small \\
+		& \small \hspace{-10pt} \textbf{Energy, Heat and Work} \small \\
+		& \small \hspace{-10pt} \textbf{Adiabatic Processes} \small \\
+		& \small \hspace{-10pt} \textbf{Isothermal Processes} \small \\
+		& \small \hspace{-10pt} \textbf{Isochoric processes} \small \\
+		& \small \hspace{-10pt} \textbf{Heat Capacity} \small \\
+		& \small \hspace{-10pt} \textbf{Entropy} \small \\
+		& \small \hspace{-10pt} \textbf{Translational and Rotational Degrees of Freedom} \small \\
+		& \small \hspace{-10pt} \textbf{The Partition Function} \small \\
+		& \small \hspace{-10pt} \textbf{Microcanonical Ensembles} \small \\
+		& \small \hspace{-10pt} \textbf{Canonical Ensembles} \small \\
+		& \small \hspace{-10pt} \textbf{Grand Canonical Ensembles} \small \\
+		& \small \hspace{-10pt} \textbf{Maxwell Distributions} \small \\
+		& \small \hspace{-10pt} \textbf{Boltzmann Distributions} \small \\
+		& \small \hspace{-10pt} \textbf{Systems with Discrete Energy Spectra} \small \\
+		& \small \hspace{-10pt} \textbf{Bose Gases} \small \\
+		& \small \hspace{-10pt} \textbf{Fermi Gases} \small \\
+		& \small \hspace{-10pt} \textbf{Blackbody Radiation} \small \\
+		& \small \hspace{-10pt} \textbf{Brownian Motion} \small \\
+	\end{align*} \linebreak
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{-10pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+	\end{align*}
+	
+\end{multicols}
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
