@@ -114,33 +114,115 @@
 	\setlength{\belowdisplayskip}{-25pt}
 	\setlength{\abovedisplayshortskip}{0pt}
 	\setlength{\belowdisplayshortskip}{0pt}
-	\begin{align*}
-		& \small \hspace{-10pt} \textbf{First Law of Thermodynamics} \small \\
-		& \small \hspace{-10pt} \textbf{Second Law of Thermodynamics} \small \\
-		& \small \hspace{-10pt} \textbf{Energy, Heat and Work} \small \\
-		& \small \hspace{-10pt} \textbf{Adiabatic Processes} \small \\
-		& \small \hspace{-10pt} \textbf{Isothermal Processes} \small \\
-		& \small \hspace{-10pt} \textbf{Isochoric processes} \small \\
-		& \small \hspace{-10pt} \textbf{Heat Capacity} \small \\
-		& \small \hspace{-10pt} \textbf{Entropy} \small \\
-		& \small \hspace{-10pt} \textbf{Translational and Rotational Degrees of Freedom} \small \\
-		& \small \hspace{-10pt} \textbf{The Partition Function} \small \\
-		& \small \hspace{-10pt} \textbf{Microcanonical Ensembles} \small \\
-		& \small \hspace{-10pt} \textbf{Canonical Ensembles} \small \\
-		& \small \hspace{-10pt} \textbf{Grand Canonical Ensembles} \small \\
-		& \small \hspace{-10pt} \textbf{Maxwell Distributions} \small \\
-		& \small \hspace{-10pt} \textbf{Boltzmann Distributions} \small \\
-		& \small \hspace{-10pt} \textbf{Systems with Discrete Energy Spectra} \small \\
-		& \small \hspace{-10pt} \textbf{Bose Gases} \small \\
-		& \small \hspace{-10pt} \textbf{Fermi Gases} \small \\
-		& \small \hspace{-10pt} \textbf{Blackbody Radiation} \small \\
-		& \small \hspace{-10pt} \textbf{Brownian Motion} \small \\
-	\end{align*} \linebreak
+	\begin{align*}		
+	& \small \hspace{-7pt} \textbf{First Law of Thermodynamics} \small \\
+		& p V = NkT		\tag*{Ideal gas law equation of state (GNS 1.2)} \\
+		& \lrb{p + \lrp{\frac{N}{V}}^2a}(V - Nb) = NkT	\tag*{Van de Waals' equation of state (GNS 1.33)} \\
+		& dU = \delta W + \delta Q	\tag*{First law of thermodynamics (GNS 2.1)} \\
+		& \delta W = - p \: dV	\tag*{Infinitesimal work done by a change in volume (GNS 1.20)} \\
+		& \delta W = \mu \: dN	\tag*{Infinitesimal work done by adding a particle against potential $\mu$ (GNS 1.24)} \\
+		& \delta Q_{\text{rev}} = T \: dS > \delta Q_{\text{irr}}	\tag*{Infinitesimal change in heat in terms of entropy (GNS 2.33)} \\
+		& dU = T \; dS - p \; dV + \mu \; dN + \phi \; dq	\tag*{First law for reversible processes (GNS 2.36)} \\
+		& T =  \left. \pder{U}{S} \right|_{V,N,q,...}, \quad \left. -p = \pder{U}{V}\right|_{S,N,q,...}, \quad \mu = \left. \pder{U}{N} \right|_{S,V,q,...}	\tag*{State quantities from total energy (GNS 2.37)} \\
+		& U = TS - pV + \sum_{i=0}^K \mu_i N_i	\tag*{Euler's equation (GNS 2.72)} \\
+		& 0 = S \; dT -V \; dp + \sum_{i=0}^K N_i \; d\mu_i	\tag*{Gibbs-Duhem relation (GNS 2.74)} \\
+		& F = U - TS = -pV = \mu N	\tag*{Free energy [Helmholtz potential] (GNS 4.36)} \\
+		& F(T,V,N) = NkT \lrc{\frac{3}{2} - s_0 - \ln \lrb{ \lrp{\frac{T}{T_0}}^{3/2} \lrp{\frac{N_0}{N}} \lrp{\frac{V}{V_0}} }} \tag*{$F$ of ideal gas (GNS 4.53)} \\
+		& -S = \evalb{\pder{F}{T}}_{V,N,...}, \quad -p = \evalb{\pder{F}{V}}_{T,N,...}, \quad \mu = \evalb{\pder{F}{N}}_{T,V,...}	\tag*{State quanties from free energy (GNS 4.39)} \\
+		& dF = 0, \quad F=F_{min}	\tag*{Property of irreversible processes (GNS 4.50)} \\
+		& H = U + pV = TS + \mu N	\tag*{Definition of enthalpy (GNS 4.59)} \\
+		& H(T,p,N) = \frac{5}{2} NkT	\tag*{Enthalpy of an ideal gas (GNS 4.78)} \\
+		& T =  \evalb{\pder{H}{S}}_{p,N,...}, \quad V = \evalb{\pder{H}{p}}_{S.N,...}, \quad \mu = \evalb{\pder{H}{N}}_{S,p,...}	\tag*{State quantities from enthalpy (GNS 4.61)} \\	
+		& G = U - TS + pV	\tag*{Free enthalpy [Gibbs' potential] (GNS 4.81)} \\
+		& G(T,p,N) = N \mu(T,p)	\tag*{Free enthalpy of the ideal gas (GNS Ex. 4.10)} \\
+		& -S = \evalb{\pder{G}{T}}_{p,N,...}, \quad V = \evalb{\pder{G}{p}}_T,N,..., \quad \mu = \evalb{\pder{G}{N}}_{T,p,...}	\tag*{State quantities from Gibbs' potential (GNS 4.83)} \\
+		& \Phi = U -TS - \mu N = -pV	\tag*{Defintion of the grand potential (GNS 4.111,4.115)} \\
+		& -S = \evalb{\pder{\Phi}{T}}_{V,\mu}, \quad -p = \evalb{\pder{\Phi}{V}}_{T,\mu}, \quad -N = \evalb{\pder{\Phi}{\mu}}_{T,V}	\tag*{State quantities from grand potential (GNS 4.113)} \\
+		& H = G- T \evalb{\pder{G}{T}}_{p,N} = -T^2 \pder{}{T} \evalb{\lrp{\frac{G}{T}}}_{p,N}	\tag*{Gibbs-Helmholtz equation (GNS 4.94)} \\
+		& \evalb{\pder{T}{V}}_{S,N} = - \evalb{\pder{p}{S}}_{V,N}, \quad \evalb{\pder{T}{N}}_{S,V} = \evalb{\pder{\mu}{S}}_{V,N}, \quad -\evalb{\pder{p}{N}}_{S,V} = \evalb{\pder{\mu}{V}}_{S,N}	\tag*{Maxwell relations following from potential energy (GNS 4.127)} \\
+		& \evalb{\pder{S}{V}}_{T,N} = \evalb{\pder{p}{T}}_{V,N}, \quad -\evalb{\pder{S}{N}}_{T,V} = \evalb{\pder{\mu}{T}}_{V,N}, \quad -\evalb{\pder{p}{N}}_{T,V} = \evalb{\pder{\mu}{V}}_{T,N} \tag*{Maxwell relations following from the free energy (GNS 4.129)} \\
+		& \evalb{\pder{T}{p}}_{S,N} = \evalb{\pder{V}{S}}_{p,N}, \quad \evalb{\pder{T}{N}}_{S,p} = \evalb{\pder{\mu}{S}}_{p,N}, \quad \evalb{\pder{V}{N}}_{S,p} = \evalb{\pder{\mu}{p}}_{S,N}	\tag*{Maxwell relations following from the enthalpy (GNS 4.131)} \\
+		& -\evalb{\pder{S}{p}}_{T,N} = \evalb{\pder{V}{T}}_{p,N}, \quad -\evalb{\pder{S}{N}}_{T,p} = \evalb{\pder{\mu}{T}}_{p,N}, \quad \evalb{\pder{V}{N}}_{T,p} = \evalb{\pder{\mu}{p}}_{T,N} 	\tag*{Maxwell relations following from the free enthalpy (GNS 4.133)} \\
+		& \evalb{\pder{S}{V}}_{T,\mu}=\evalb{\pder{p}{T}}_{V,\mu}, \quad \evalb{\pder{S}{\mu}}_{T,V} = \evalb{\pder{N}{T}}_{V,\mu}, \quad \evalb{\pder{p}{\mu}}_{T,V} = \evalb{\pder{N}{V}}_{T,\mu}		\tag*{Maxwell relations following from the grand potential (GNS 4.135)} \\
+		&\begin{minipage}{0.3 \columnwidth}
+			\input{../images/rect.tex}
+		\end{minipage}
+		\begin{minipage}{0.65 \columnwidth}
+			\begin{itemize}
+				\item The derivative of a potential (edge) with respect to a variable (corner) is given by the variable at the diagonally opposite corner. The arrows in the diagonals determine the sign. \\
+				\item For the Maxwell relations, derivatives of variables along an edge of the quadrangle, at constant variable in the diagonally opposite corner, are just equal to the corresponding derivative on the other side.
+			\end{itemize}
+		\end{minipage}
+	\end{align*}	
 	\setlength{\abovedisplayskip}{-25pt}
 	\setlength{\belowdisplayskip}{-10pt}
 	\setlength{\abovedisplayshortskip}{0pt}
 	\setlength{\belowdisplayshortskip}{0pt}
 	\begin{align*} 
+	& \small \hspace{-7pt} \textbf{Second Law of Thermodynamics} \small \\
+		& dS \geq 0	\tag*{Second law of thermodynamics (GNS 2.35)} \\
+		& dS = 0, \quad S = S_{\text{max}}	\tag*{Entropy of isolated system in equilibrium (GNS 2.34)} \\
+		& \oint \frac{\delta Q_{\text{rev}}}{T} = 0		\tag*{Conservation of reduced heat for reversible cyclic processes (GNS. 2.26)} \\
+	& \small \hspace{-10pt} \textbf{Energy, Heat and Work} \small \\
+		& U = \frac{3}{2} N k T	\tag*{Internal energy of an ideal gas (GNS 2.2)} \\
+		& \eta = \frac{|\Delta W|}{\Delta Q_h} = \frac{T_h-T_c}{T_h}	\tag*{Efficiency of a heat engine (GNS 2.56)} \\
+	& \small \hspace{-7pt} \textbf{Adiabatic Processes} \small \\
+		& \lrp{\frac{T}{T_0}}^{3/2} = \frac{V_0}{V}, \quad \lrp{\frac{T}{T_0}}^{5/2} = \frac{p}{p_0}, \quad \frac{p}{p_0} = \lrp{\frac{V_0}{V}}^{5/3} \tag*{Adiabatic equations of the ideal gas (GNS 2.6 \& 2.7)} \\
+	& \small \hspace{-7pt} \textbf{Isothermal Processes} \small \\
+	& \small \hspace{-7pt} \textbf{Isochoric processes} \small \\
+	& \small \hspace{-7pt} \textbf{Heat Capacity} \small \\
+		& \delta Q = C \: dT	\tag*{Infinitesimal heat added against heat capacity $C$ (GNS. 1.25)} \\
+		& C_v = \frac{3}{2}Nk	\tag*{Specific heat, constant volume, of an ideal gas (GNS 4.80)} \\
+		& C_p = \frac{5}{2}Nk	\tag*{Specific heat, constant pressure, of an ideal gas (GNS 4.79)} \\
+	& \small \hspace{-7pt} \textbf{Entropy} \small \\
+		& dS =  \frac{\delta Q_{\text{rev}}}{T}	\tag*{Definition of entropy (GNS. 2.28)} \\
+		& S(N,T,p) = Nk \lrc{s_0(T_0, p_0) + \ln \lrb{\lrp{\frac{T}{T_0}}^{5/2} \lrp{\frac{p_0}{p}}}}	\tag*{Entropy of ideal gas (GNS 2.40)} \\
+	& \small \hspace{-7pt} \textbf{Translational and Rotational Degrees of Freedom} \small \\
+	& \small \hspace{-7pt} \textbf{First-Order Phase Transitions} \small \\
+		& a_1 A_1 + a_2 A_2 + ... \Leftrightarrow b_1+B_1+b_2 B_2+...	\tag*{General reaction equation (GNS 3.6)} \\
+		& \tder{p}{T} = \frac{\Delta Q'_{li \rightarrow v}}{T(v_v-v_{li})}	\tag*{Clausius-Clapeyron equation, $\Delta Q_{li\rightarrow v}$ is evaporation heat (GNS 3.13)} \\
+		& p(V) = \frac{NkT}{V- Nb} - \frac{aN^2}{V^2}	\tag*{Pressure along a van der Waals isotherm (GNS 3.19)} \\
+	& \small \hspace{-7pt} \textbf{Microcanonical Ensembles} \small \\
+		& S = k \ln \Omega(E,V,N)	\tag*{Statistical defintion of entropy (GNS 5.23)} \\
+		& S(E,V,N) = Nk \lrc{\frac{5}{2} + \ln \lrb{\frac{V}{N h^3} \lrp{\frac{4 \pi m E}{3N}}^{3/2}}}	\tag*{Sackur-Tetrode Equation (GNS 5.63)} \\
+		& \Omega(E,V,N) = g(E,V,N) E	\tag*{Number of microstates from density of states (GNS 5.65)} \\
+		& g(E) = \pder{\Sigma(E)}{E}	\tag*{Definition of the density of states (GNS 5.65)} \\
+		& \Sigma(E) = \frac{1}{N! h^{3N}} \int_{H(q_\nu,p_\nu) \leq E} d^{3N}p \; d^{3N}q	\tag*{Number of microstates in energy sphere (GNS 5.65)} \\
+		& \lambda = \lrp{\frac{h^2}{2 \pi mkT}}^{1/2}	\tag*{Thermal wavelength (GNS pg. 140)} \\
+		& \expval{f} =  \frac{1}{h^{3N}}\int d^{3N} q \; d^{3N} p \; f(q_\nu,p_\nu) \rho (q_\nu, p_{\nu})	\tag*{Definition of the ensemble average (GNS 6.8)} \\
+		& \rho_{\text{mc}} = \begin{cases}
+			\frac{1}{\Omega} & E \leq H(q_v,p_v) \leq E + \Delta E \\
+			0	& \text{otherwise} \\
+		\end{cases}	\tag*{Phase-space density of microcanonical ensemble (GNS 6.9)} \\
+		& \tder{\rho}{t} = \pder{\rho}{t} + \{ p,H \} = 0	\tag*{Liouville's theorem (6.18)} \\
+		& S = \expval{-k \ln \rho}	\tag*{Entropy as an ensemble average (GNS 6.37)} \\
+	\end{align*}	
+	\setlength{\abovedisplayskip}{-25pt}
+	\setlength{\belowdisplayskip}{-10pt}
+	\setlength{\abovedisplayshortskip}{0pt}
+	\setlength{\belowdisplayshortskip}{0pt}
+	\begin{align*} 
+	& \small \hspace{-7pt} \textbf{Canonical Ensembles} \small \\
+		& \rho_c(q_\nu,p_\nu) = \frac{\exp\{ - \beta H(q_\nu,p_\nu ) \}}{h^{-3N} \int d^{3N}q \; d^{3N}p \; \exp \{ -\beta H(q_\nu, p_\nu) \}}	\tag*{Canonical phase-space density (GNS 7.9)} \\
+		& Z = \sum_i \exp \{ - \beta E_i \}	\tag*{Canonical partition function (GNS 7.22)} \\
+		& Z = \frac{1}{h^{3N}} \int d^{3N}q \; d^{3N}p \; \exp{-\beta H(q_\nu,p_\nu)}	\tag*{Continuous partition funciton (GNS 7.24)} \\
+		& F(T,V,N) = -kT \ln Z(T,V,N)	\tag*{Free energy from the partition function (GNS 7.35)} \\
+		& Z(\beta) = \int_0^\infty dE \; g(E) e^{-\beta E}	\tag*{Canonical partition function from microcanonical density of states (GNS 7.103)} \\
+		& g(E) = \frac{1}{2 \pi i} \int_{\beta'-i \infty}^{\beta'+i \infty} d \beta \; e^{\beta E} Z(\beta)	\tag*{Microcanonical density of states from partition function (GNS 7.107)} \\
+		& \expval{T} = - \frac{1}{2} \expval{\sum_{i=1}^N \ve{r}_i \cdot \ve{F}_i} = \frac{3}{2} NkT	\tag*{The virial theorem (GNS 7.149)} \\
+		& \expval{H} = \frac{1}{2} kT	\tag*{Equipartition theorem (GNS 7.156)} \\
+	& \small \hspace{-7pt} \textbf{Grand Canonical Ensembles} \small \\
+		& \rho_{gc}(N, q_\nu, p_\nu) = \frac{\exp \{ -\beta(H(q_\nu, p_\nu) -\mu N) \}}{\sum_{N=0}^{\infty} h^{-3N} \int d^{3N} q \int d^{3N}p \; \exp \{ -\beta(H(q_\nu, p_\nu) -\mu N) \}} \tag*{Grand canonical phase-space density (GNS 9.11)} \\
+		& \mathcal{Z} = \sum_{N=0}^{\infty} \frac{1}{h^{3N}} \int d^{3N}q  \int d^{3N}p \; \exp \{ -\beta(H(q_\nu, p_\nu) -\mu N) \}	\tag*{Grand canonical partition function (GNS 9.27)} \\
+		& \phi(T,V,\mu) = -kT \ln \mathcal{Z}(T,V,\mu)	\tag*{Macrocanonical potential (GNS 9.38)} \\
+		& \mathcal{Z}(T,V,\mu) = \sum_{N=0}^{\infty} \lrp{\exp\lrc{\frac{\mu}{kT}}}^N Z(T,V,N)	\tag*{Relation between canonical and grand canonical partition functions (GNS 9.40)} \\
+	& \small \hspace{-7pt} \textbf{Maxwell Distributions} \small \\
+	& \small \hspace{-7pt} \textbf{Boltzmann Distributions} \small \\
+	& \small \hspace{-7pt} \textbf{Systems with Discrete Energy Spectra} \small \\
+	& \small \hspace{-7pt} \textbf{Bose Gases} \small \\
+	& \small \hspace{-7pt} \textbf{Fermi Gases} \small \\
+	& \small \hspace{-7pt} \textbf{Blackbody Radiation} \small \\
+	& \small \hspace{-7pt} \textbf{Brownian Motion} \small \\
 	\end{align*}
 	
 \end{multicols}

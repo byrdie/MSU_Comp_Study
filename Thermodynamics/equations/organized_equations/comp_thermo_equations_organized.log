@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  27 JUN 2016 14:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  30 JUN 2016 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1787,812 +1787,888 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 117.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+LaTeX Font Warning: Command \small invalid in math mode on input line 156.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+LaTeX Font Warning: Command \small invalid in math mode on input line 156.
 
+(../images/rect.tex)
+Overfull \hbox (10.85942pt too wide) in paragraph at lines 207--156
+[][]
+ []
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
 
+Underfull \hbox (badness 10000) in paragraph at lines 207--156
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+ []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
 
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 138.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
+LaTeX Font Warning: Command \small invalid in math mode on input line 156.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 156.
+
+(../images/rect.tex)
+Overfull \hbox (10.85942pt too wide) in paragraph at lines 207--156
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--156
 
  []
 
 
-Overfull \vbox (167.0pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
+ []
 
-Overfull \vbox (166.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (165.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (164.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (163.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (162.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (161.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (160.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (159.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (158.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (157.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (156.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (155.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (154.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (153.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (152.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (151.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (150.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (149.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (148.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (147.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (146.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (145.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (144.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (143.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (142.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (141.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (140.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (139.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (138.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (137.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (136.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (135.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (134.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (133.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (132.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (131.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (130.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (129.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (128.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (127.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 199.
 
-Overfull \vbox (126.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (125.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (124.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (123.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (122.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (121.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (120.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (119.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (118.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (117.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (116.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (115.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (114.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (113.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (112.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (111.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (110.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (109.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (108.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (107.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (106.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (105.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (104.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (103.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (102.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (101.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (100.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (99.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (98.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (97.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (96.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (95.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (94.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (93.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (92.0pt too high) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
-Overfull \vbox (91.0pt too high) has occurred while \output is active []
 
-
-Overfull \vbox (90.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (89.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (88.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (87.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (86.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (85.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (84.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (83.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (82.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (81.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (80.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (79.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (78.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (77.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (76.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (75.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (74.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (73.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (72.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (71.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (70.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (69.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (68.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (67.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (66.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (65.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (64.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (63.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (62.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (61.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (60.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (59.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (58.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (57.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (56.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (55.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (54.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (53.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (52.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (51.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (50.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (49.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (48.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (47.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (46.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (45.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (44.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (43.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (42.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (41.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (40.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (39.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (38.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (37.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (35.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (34.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (33.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (32.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (31.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (30.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (28.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (27.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (26.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (24.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (23.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (22.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (21.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (20.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (19.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (18.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (17.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (16.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (15.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (14.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (35.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (34.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (33.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (32.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (31.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (30.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (28.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (27.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (26.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (24.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (23.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (22.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (21.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (20.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (19.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (18.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (17.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (16.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (15.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (14.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.30003pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.30003pt too high) has occurred while \output is active []
-
+LaTeX Font Warning: Command \small invalid in math mode on input line 226.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./comp_thermo_equations_organized.aux) ) 
+Overfull \vbox (205.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (204.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (203.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (202.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (201.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (200.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (199.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (198.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (197.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (196.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (195.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (194.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (193.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (192.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (191.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (190.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (189.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (188.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (187.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (186.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (185.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (184.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (183.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (182.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (181.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (180.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (179.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (178.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (177.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (176.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (175.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (174.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (173.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (172.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (171.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (170.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (169.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (168.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (167.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (166.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (165.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (164.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (163.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (162.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (161.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (160.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (159.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (158.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (157.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (156.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (155.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (154.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (153.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (152.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (151.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (150.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (149.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (148.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (147.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (146.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (145.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (144.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (143.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (142.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (141.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (140.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (139.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (138.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (137.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (136.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (135.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (134.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (133.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (132.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (131.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (130.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (129.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (128.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (127.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (126.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (125.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (124.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (123.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (122.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (121.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (120.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (119.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (118.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (117.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (116.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (115.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (114.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (113.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (112.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (111.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (110.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (109.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (108.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (107.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (106.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (105.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (104.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (103.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (102.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (101.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (100.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (99.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (98.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (97.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (96.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (95.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (94.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (93.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (92.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (91.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (90.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (89.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (88.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (87.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (86.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (85.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (84.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (82.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (81.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (80.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (79.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (78.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (77.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (76.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (75.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (74.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (73.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (72.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (71.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (70.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (69.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (68.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (67.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (66.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (65.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (64.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (63.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (62.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (61.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (60.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (59.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (58.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (57.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (56.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (55.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (54.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (53.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (49.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (48.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (46.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (45.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (23.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (22.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (21.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (20.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (19.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (18.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (17.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (16.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (15.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (13.3136pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.3136pt too high) has occurred while \output is active []
+
+
+[2] (./comp_thermo_equations_organized.aux) ) 
 Here is how much of TeX's memory you used:
- 19621 strings out of 493304
- 363772 string characters out of 6139871
- 428699 words of memory out of 5000000
- 22677 multiletter control sequences out of 15000+600000
- 8603 words of font info for 35 fonts, out of 8000000 for 9000
+ 19688 strings out of 493304
+ 365209 string characters out of 6139871
+ 461699 words of memory out of 5000000
+ 22734 multiletter control sequences out of 15000+600000
+ 9210 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,11n,55p,10449b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb>
-Output written on comp_thermo_equations_organized.pdf (1 page, 31663 bytes).
+ 56i,16n,55p,10449b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+
+Output written on comp_thermo_equations_organized.pdf (2 pages, 111330 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

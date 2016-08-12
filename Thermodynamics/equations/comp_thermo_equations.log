@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  28 JUN 2016 12:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.13)  29 JUN 2016 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1787,140 +1787,140 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 117.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 158.
+LaTeX Font Warning: Command \small invalid in math mode on input line 131.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
 
  []
 
 (./images/rect.tex)
-Overfull \hbox (10.85942pt too wide) in paragraph at lines 207--182
+Overfull \hbox (10.85942pt too wide) in paragraph at lines 207--155
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--182
+Underfull \hbox (badness 10000) in paragraph at lines 207--155
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Overfull \hbox (2.64252pt too wide) in paragraph at lines 180--189
+Overfull \hbox (2.64252pt too wide) in paragraph at lines 153--162
 []$[]$ $[]$ 
  []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 217.
+LaTeX Font Warning: Command \small invalid in math mode on input line 190.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 240.
+LaTeX Font Warning: Command \small invalid in math mode on input line 213.
 
 
 Overfull \vbox (184.16724pt too high) has occurred while \output is active []
@@ -2446,7 +2446,7 @@ Overfull \vbox (12.16724pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  19686 strings out of 493304
  365076 string characters out of 6139871
- 459689 words of memory out of 5000000
+ 446689 words of memory out of 5000000
  22734 multiletter control sequences out of 15000+600000
  9210 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2460,7 +2460,7 @@ m/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on comp_thermo_equations.pdf (2 pages, 129498 bytes).
+Output written on comp_thermo_equations.pdf (2 pages, 121637 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
